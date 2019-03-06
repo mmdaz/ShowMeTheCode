@@ -11,3 +11,16 @@
         so configs help us for this changing without update version of project.
     Points:
         * we must put a variable in to config file that usualy change of this doesn't change logic of code.
+
+## Decorators in python:
+    I am reading [this link](https://realpython.com/primer-on-python-decorators/) about decorators
+
+## Code Review:
+
+
+## Debuging:
+
+
+## Test:
+
+ 
