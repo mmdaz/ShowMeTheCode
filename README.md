@@ -14,13 +14,13 @@
 
 ## Decorators in python:
     I am reading [this link](https://realpython.com/primer-on-python-decorators/) about decorators
-
+    
 ## Code Review:
 
-
-## Debuging:
-
+## Debugging:
 
 ## Test:
 
- 
+## ContextManagers:
+
+## Database:
