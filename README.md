@@ -18,3 +18,10 @@
 ## graylog
     - When you you want to test your graylog input try this script:
          ``` for i in {1..100} ; do echo '{"version": "1.1","host":"david.org","short_message":"A short message that helps you identify what is going on","full_message":"Backtrace here\n\nmore stuff","level":1,"_user_id":9001,"_some_info":"foo","_some_env_var":"bar"}' | nc -w 1 -u graylog.mydomain.com 12201  ; done ```
+
+## Docker
+    - Connection to postgres container and finally to the database:
+        ``` 
+        docker exec -it postgres psql -U postgres
+        \c <database_name>
+        ```
