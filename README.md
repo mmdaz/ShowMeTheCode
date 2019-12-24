@@ -26,4 +26,7 @@
         \c <database_name>
         ```
 ## Virtulenve Python:
-    https://gist.github.com/Geoyi/d9fab4f609e9f75941946be45000632b
+    sudo apt-get install python3-pip
+    sudo pip3 install virtualenv 
+    virtualenv venv
+    source venv/bin/activate
